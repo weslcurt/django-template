@@ -29,7 +29,7 @@ SECRET_KEY = os.getenv(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ['DEBUG_VALUE'] == 'True'
 
-ALLOWED_HOSTS = ['99.83.25.33']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
