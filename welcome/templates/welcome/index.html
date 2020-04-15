@@ -268,7 +268,7 @@ $ git push</pre>
                   <p>
                     If you are running Django's development server in your local host, you can see more information
                     about this request using the toolbar on the right.<br>
-                    Please note that by default your Django settings have <code>DEBUG = True</code> and that is not appropriate for production use,
+                    Please note that you have to set your environmential variable for DEBUG_VALUE and DJANGO_SECRET_KEY in order for the container to deploy without crashing <code>Example DEBUG_Value = 'True' DJANGO_SECRET_KEY =<some secret key> </code> and that is not appropriate for production use,
                     but very handy during development.<br>
                     Refer to the <a href="https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/">Deployment Checklist</a>
                     before taking this project into a production environment.
